@@ -1,0 +1,1199 @@
+
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<style>
+        /* @Sagar : limit selection*/
+        .hide{display: none!important;}
+        .uk-nav-header{ margin-top: 0!important;}
+        #top_bar #breadcrumbs li{cursor: pointer;}
+        .data-wrapper-active{height: auto; position: relative;}
+        .data-wrapper{height: 0px; position: relative; overflow: hidden;}
+        .red-dot	{color: #e53935!important}
+		.green-dot	{color: #7cb342!important}		
+		.yellow-dot	{color: #fb8c00!important}
+		.gray-dot	{color: #767676!important}
+		
+		.schedule-action .uk-text-center a{margin: auto;}
+		
+		@media (max-width: 767px){
+			.uk-hidden-small {display: block!important;}
+		}
+		
+		.uk-table-nowrap td, .uk-table-nowrap th{white-space: inherit;}
+		
+		.view-google-map{color: white!important;cursor: pointer;}
+		
+		.leaflet-top, .leaflet-bottom{z-index: 999!important;}
+		#menu_top_dropdown .device-name { position: absolute; width: max-content;}
+		#menu_top_dropdown .device-name>b{top : -5px;position: absolute; width: max-content;width: -moz-max-content;}
+		#menu_top_dropdown .device-name>i{top : 10px;font-size: 12px;position: absolute; width: max-content;width: -moz-max-content;}
+		#menu_top_dropdown .top_menu_toggle{display: table;}
+		
+		#google-map-button{display: inline-block;bottom: 10px;position: absolute;z-index: 999;margin: 5px;}
+		
+		.hidden { visibility: hidden;position: absolute;}
+		
+		.input-icon{position: absolute;top: 12px;right: -10px;}
+		
+		/* Restricted feature */
+		/* CallLog */
+		.display-table td.basic-plan audio+a+.upgrade-btn{display: none;}
+		.display-table td.basic-plan:hover audio, .display-table td.basic-plan:hover audio+a{display: none;}
+		.display-table td.basic-plan:hover audio+a+.upgrade-btn{display: inline;}
+		
+		/* SMS-list */
+		.lockedContent-unlock .lockedContent-unlockIcon{
+			text-align: center;
+		    border-top: 2px solid #1976D2;
+		}
+		.lockedContent-unlockIcon i{
+			/* color: #fff;	
+		    padding: 10px;
+		    border-radius: 50px;
+		    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+		    width: 15px;
+		    height: 15px;
+		    line-height: 15px;
+		    font-size: 1.5em;
+		    margin-top: -18px;
+		    background: #1976D2; */
+		    display: inline-block;
+		    overflow: hidden;
+		    width: 35px;
+		    height: 35px;
+		    font-size: 15px;
+		    border-radius: 50px;
+		    background: #1976D2;
+		    margin-top: -12px;
+		    color: #FFF;
+		    padding: 10px;
+		}
+		.lockedContent-unlock-description{text-align: center;}
+		
+		.basic-plan {
+		    color: transparent!important;
+		    cursor: default!important;
+		    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+		    opacity: 0.75;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    cursor: pointer;
+		    filter: blur(3px);
+		}
+		.deleteme {display: none;}
+				
+		.info-text .basic-plan {
+		    color: transparent!important;
+		    cursor: default!important;
+		    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+		    opacity: 0.75;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    cursor: pointer;
+		}		
+		
+		.subscription-table.basic-plan td{
+		    color: transparent!important;
+		    cursor: default!important;
+		    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+		    opacity: 0.75;
+		    -webkit-user-select: none;
+		    -moz-user-select: none;
+		    -ms-user-select: none;
+		    user-select: none;
+		    cursor: pointer;
+		}
+		#header_main{
+			background:#DE6E4B;
+		}
+</style>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="description" content="Como rastrear um celular,espião de celular gratis,whatsapp espiao gratis,facebook,aprenda grampear um celular android gratis aprenda como rastrear um celular escuta ambiente de celular como espionar whatsapp facebook espiao escuta ambiente de celular espiao de whatsapp gratis espiao de facebook gratis espionar conversas celular painel BrunoEspiao nokiaespiao nokia espiao software espiao de celular programa espiao de celular gratis programa espiao para iphone programa espiao de computador rastreador de carro gps tracker espionar fotos celular moto g iphone 6 camaro Bruno Espiao appespiao yukess celularespiaoalfa facebook espião" />
+<meta name="keywords" content="grampo de celular, como rastrear um celular,rastreador de celular,espião de celular gratis,whatsapp espiao gratis,celular espião,espião para celular,espiao de celular,celular espiao,como rastrear um celular pelo numero gratis,rastreador de celular espião,rastreador espiao para celular,rastrear um celular pelo numero,rastreador de telefone,aplicativo para rastrear,encontrar pessoas pelo celular,rastrear celular pelo imei,espiao de celular invisivel,aparelho espiao para celular,espião de celular whatsapp,espião de celular whatsapp,spy espiao,rastreador de whatsapp,como rastrear uma pessoa pelo celular,como faço para rastrear um celular pelo numero,celular espião barato,site espião gratis,rastrear chip,rastrear chip,espião de celular whatsapp,rastrear celular pelo chip,rastrear celular online pelo numero,software espião telemovel,celularespiao,rastrear sms,rastrear celular,rastrearcelular,politica de privacidade" />
+<meta name="author" content="Sagar">
+<meta name="generator" content="BrunoEspiao Painel v2.0">
+<meta name="google" content="notranslate">
+<meta name="application-name" content="Software Espiao">
+<title>Software Espiao android gratis por 3 dias,Monitoramento e rastreamento de Celular</title>
+<script type="text/javascript">
+    	window.onload = function(){document.body.classList.remove("window-loading");}
+		//window.onerror = function(e){ console.log("Error: "+e); return true;}
+		//console.log = function(){};
+		//console.dir = function(){};
+	</script>
+<script>
+	var _gaUA = 'UA-65808100-1';
+	if(window.location.href.indexOf("pc.brunoespiao.com.br") >=0){	
+		_gaUA = 'UA-65821087-1';
+	}    
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+		  ga('create', _gaUA, 'auto');
+		  ga('send', 'pageview');
+	</script>
+<link rel="shortcut icon" id="favicon" type="image/x-icon" href="app-assets/images/favicon/favicon-32x32.png">
+
+
+
+<link rel="stylesheet" type="text/css" href="app-assets/vendors/vendors.min.css">
+
+
+
+<link rel="stylesheet" type="text/css" href="app-assets/css/themes/vertical-menu-nav-dark-template/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="app-assets/css/themes/vertical-menu-nav-dark-template/style.min.css">
+<link rel="stylesheet" type="text/css" href="/esp/nova/app-assets/css/pages/app-email.min.css">
+<link rel="stylesheet" type="text/css" href="/esp/nova/app-assets/css/pages/app-email-content.min.css">
+<link rel="stylesheet" type="text/css" href="/esp/nova/app-assets/css/pages/app-chat.css">
+<link rel="stylesheet" type="text/css" href="app-assets/css/custom/custom.css?v=23">
+<link rel="stylesheet" type="text/css" href="app-assets/fonts/fontawesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="app-assets/vendors/animate-css/animate.min.css">
+<script src="/esp/nova/app-assets/js/vendors.min.js" type="text/javascript"></script>
+<script src="/esp/nova/app-assets/js/custom/deviceinfo.js" type="text/javascript"></script>
+<style>
+	
+	
+	.stories.carousel{height: auto!important;}
+	</style>
+</head>
+
+<body class="vertical-layout page-header-light vertical-menu-collapsible vertical-menu-nav-dark 2-columns  app-page refresh window-loading" data-open="click" data-menu="vertical-menu-nav-dark" data-col="2-columns" data-theme="gradient-45deg-green-teal">
+
+<header class="page-topbar" id="header">
+<div class="navbar navbar-fixed animated" id="header-contains">
+<nav class="navbar-main navbar-color nav-collapsible navbar-dark nav-expanded sideNav-lock">
+<div class="nav-wrapper">
+<div class="header-search-wrapper hide-on-med-and-down" style="width: auto;">
+<ul class="navbar-list hidden-mobile desk-device-list">
+<li>
+<a href="javascript:void(0);" class="waves-block waves-light profile-button device-select p-0" data-imei=7508035726317072320 data-target="device-list"><i id="device-selection-btn" class="left material-icons grey-text text-shadow">phone_android</i> <div class="left mt-3"><p>2201117TG</p><small>Atualizado a 2 Horas,18 Minutos </small></div> <i class="right material-icons">arrow_drop_down</i></a>
+</li>
+</ul>
+
+<ul class="dropdown-content device-list" id="device-list"></ul>
+
+</div>
+
+<div class="mobile-social" style="display: inline;">
+
+<ul class="navbar-list right hidden-mobile device-status header-mobile-view">
+<li class="notification-icon hide-on-med-and-down animated status"><a class="waves-effect waves-block waves-light notification-button" href="javascript:void(0);" data-target="bluetooth-dropdown"><i class="material-icons">bluetooth_audio</i></a></li>
+<li class="notification-icon hide-on-med-and-down animated status"><a class="waves-effect waves-block waves-light notification-button" href="javascript:void(0);" data-target="location-dropdown"><i class="material-icons">location_on</i></a></li>
+<li class="notification-icon hide-on-med-and-down animated status"><a class="waves-effect waves-block waves-light notification-button" href="javascript:void(0);" data-target="wifi-dropdown"><i class="material-icons">signal_wifi_4_bar</i></a></li>
+<li class="notification-icon hide-on-med-and-down animated status"><a class="waves-effect waves-block waves-light notification-button" href="javascript:void(0);" data-target="network-dropdown1"><i class="material-icons">network_cell</i></a></li>
+<li class="notification-icon hide-on-med-and-down animated status"><a class="waves-effect waves-block waves-light notification-button" href="javascript:void(0);" data-target="network-dropdown2"><i class="material-icons">network_cell</i></a></li>
+<li class="notification-icon hide-on-med-and-down animated status"><a class="waves-effect waves-block waves-light notification-button" href="javascript:void(0);" data-target="battery-dropdown"><i class="material-icons">battery_charging_full</i></a></li>
+<li class="hide-on-med-and-down payment-btn"><a class="waves-effect waves-light btn-flat ml-0 mr-0" onclick="clickAction('pagamento.jsp')"><img src="https://brunoespiao.com.br/back/cabecalho/comprar.gif" alt="Comprar" /></a></li>
+<li class="notification-icon hide-on-large-only mob-device-selection">
+<a class="waves-block waves-light notification-button" href="javascript:void(0);" data-target="mobile-device-list" data-imei=7508035726317072320><i class="material-icons grey-text text-shadow">phone_iphone</i> <span style=" line-height: 50px; ">2201117TG</span> <i class="material-icons">arrow_drop_down</i></a>
+</li>
+<li class="notification-icon hide-on-large-only opacity-8 header-mobile-view-i"><a class="waves-effect waves-block waves-light" id="toggle-device-info"><i class="material-icons vertical-text-top">info</i></a></li>
+
+ <li class="notification-icon bruno"><a class="waves-effect waves-block waves-light notification-button animated infinite tada" href="#" data-target="notifications-dropdown"><i class="far fa-bell"></i></a></li>
+
+<li class="notification-icon"><a class="waves-block waves-light sidenav-trigger" href="#" data-target="slide-out-right" id="top-settings-btn"><i class="fa fa-cog"></i></a></li>
+</ul>
+<ul class="dropdown-content responsive-img border-radius-8 z-depth-4" id="notifications-dropdown">
+<li onclick="clickAction('ajudabruno-nova.jsp',{menu : 'nova_noticia'})" id="1646111399266">
+<a class="black-text" href="#!"><span class="material-icons icon-bg-circle blue small">voice_chat</span> Noticias em Construção</a>
+<time class="media-meta grey-text darken-2" data-time="1646111399266">1/3</time>
+<delete onclick="deleteNoti(1646111399266)">
+</delete></li>
+<li onclick="clickAction('ajudabruno-nova.jsp',{menu : 'nova_manuais'})" id="1646111350722">
+<a class="black-text" href="#!"><span class="material-icons icon-bg-circle blue small">voice_chat</span> Manuais em Construções</a>
+<time class="media-meta grey-text darken-2" data-time="1646111350722">1/3</time>
+<delete onclick="deleteNoti(1646111350722)">
+</delete></li>
+<li onclick="clickAction('ajudabruno-nova.jsp',{menu : 'nova_problemasbruno'})" id="1646111253547">
+<a class="black-text" href="#!"><span class="material-icons icon-bg-circle blue small">voice_chat</span> Problemas em Construção</a>
+<time class="media-meta grey-text darken-2" data-time="1646111253547">1/3</time>
+<delete onclick="deleteNoti(1646111253547)">
+</delete></li>
+</ul>
+</div>
+
+<ul class="dropdown-content device-list" id="mobile-device-list"></ul>
+
+<ul class="dropdown-content" id="bluetooth-dropdown"></ul>
+<ul class="dropdown-content" id="battery-dropdown"></ul>
+<ul class="dropdown-content" id="location-dropdown"></ul>
+<ul class="dropdown-content" id="wifi-dropdown"></ul>
+<ul class="dropdown-content" id="network-dropdown1"></ul>
+<ul class="dropdown-content" id="network-dropdown2"></ul>
+</div>
+<nav class="display-none search-sm">
+<div class="nav-wrapper">
+<form>
+<div class="input-field">
+<input class="search-box-sm" type="search" required>
+<label class="label-icon" for="search"><i class="material-icons search-sm-icon">search</i></label>
+<i class="material-icons search-sm-close">close</i> </div>
+</form>
+</div>
+</nav>
+</nav>
+
+</div>
+<div class="navbar">
+<div class="navbar-main navbar-color nav-collapsible nav-expanded sideNav-lock">
+<div id="card-stats" class="social-icons-topbar center">
+
+<div class="row">
+<ul>
+<li class="tooltipped" data-position="bottom" data-tooltip="Chamadas"><a data-page="chamadas.jsp" class="grey-text text-darken-2"><i class="fa fa-phone fa-flip-horizontal background-round orange"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Mensagens"><a data-page="chat.jsp" data-original="sms.jsp" data-im="sms" class="grey-text text-darken-2"><i class="fa fa-envelope background-round blue"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Histrico de Gps"><a data-page="gps.jsp" class="grey-text text-darken-2"><i class="fa fa-map-marker-alt background-round orange"></i></a></li>
+<li class="tooltipped" data-position="bottom" data-tooltip="WhatsApp"><a data-page="chat.jsp" data-original="whatsapp.jsp" data-im="whatsapp" class="grey-text text-darken-2"><i class="fab fa-whatsapp background-round"></i></a></li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Teclas Digitadas"><a data-page="teclasdigitadas.jsp" class="grey-text text-darken-2"><i class="fa fa-keyboard background-round pink"></i></a></li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Facebook"><a data-page="chat.jsp" data-original="facebook.jsp" data-im="facebook" class="grey-text text-darken-2"><i class="fab fa-facebook-f background-round"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Viber"><a data-page="chat.jsp" data-original="viber.jsp" data-im="viber" class="grey-text text-darken-2"><i class="fab fa-viber background-round"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Instagram"><a data-page="chat.jsp" data-original="" data-im="instagram" class="grey-text text-darken-2"><i class="fab fa-instagram background-round blue"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="SnapChat"><a data-page="chat.jsp" data-original="" data-im="snapchat" class="grey-text text-darken-2"><i class="fab fa-snapchat background-round yellow"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Sites Visitados"><a data-page="sites.jsp" class="grey-text text-darken-2"><i class="fab fa-internet-explorer background-round blue"></i></a></li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Agendador"><a data-page="agendador.jsp" class="grey-text text-darken-2"><i class="fa fa-clock background-round orange"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Fotos"><a data-page="foto.jsp" class="grey-text text-darken-2"><i class="fa fa-image background-round pink"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Pega Ladrão"><a data-page="pegaladrao.jsp" class="grey-text text-darken-2"><i class="fa fa-shield-alt background-round blue"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Skype"><a data-page="chat.jsp" data-original="" data-im="skype" class="grey-text text-darken-2"><i class="fab fa-skype background-round"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Gravao de Tela"><a data-page="chat.jsp" data-original="" data-im="screen" class="grey-text text-darken-2"><i class="fa fa-mobile-alt background-round brown"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Gmail"><a data-page="mail.jsp" data-im="mail" class="grey-text text-darken-2"><i class="fa fa-envelope background-round pink"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Textos Copiados"><a data-page="textoscopiados.jsp" class="grey-text text-darken-2"><i class="fa fa-copy background-round blue"></i></a> </li>
+<li class="tooltipped" data-position="bottom" data-tooltip="Eventos"><a data-page="registrodeeventos.jsp" class="grey-text text-darken-2"><i class="fa fa-file-code background-round orange"></i></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+
+<aside class="sidenav-main nav-expanded nav-collapsible sidenav-light navbar-full sidenav-active-rounded menu_section sidenav-dark nav-lock">
+<div class="brand-sidebar hide-on-med-and-down">
+<h1 class="logo-wrapper "><a class="brand-logo darken-1" href="https://brunoespiao.com.br/"><img src="https://brunoespiao.com.br/esp/nova/app-assets/images/logo/espiao_logo.png" alt="Bruno Espiao" /><span class="logo-text hide-on-med-and-down"></span></a><a class="navbar-toggler hide" href="#"><i class="material-icons">radio_button_checked</i></a></h1>
+</div>
+<ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow pt-1" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion">
+<li class="bold hide-on-large-only black padding-2 ">
+<a class="brand-logo darken-1 center" href="https://brunoespiao.com.br/">
+<img class="pasdding-2" src="https://brunoespiao.com.br/esp/nova/app-assets/images/logo/espiao_logo.png" alt="Bruno Espiao" />
+</a>
+</li>
+
+<li class="bold mt-2">
+<a href="index.jsp" class="waves-effect waves-cyan active" data-page="central.jsp">
+<i class="material-icons">border_all</i><span class="menu-title" data-i18n="">
+Central</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="ferramentas.jsp">
+<i class="material-icons">live_tv</i><span class="menu-title" data-i18n="">
+Ferramentas</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chamadas.jsp">
+<i class="material-icons">call</i><span class="menu-title" data-i18n="">
+Chamadas</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="whatsapp.jsp" data-im="whatsapp">
+<i class="fab fa-whatsapp"></i><span class="menu-title" data-i18n="">
+WhatsApp</span>
+</a>
+</li>
+<li class="bold ">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-im="screen">
+<i class="fa fa-mobile-alt"></i><span class="menu-title" data-i18n="">
+Gravação de Tela</span>
+<span class="badge new badge pill pink accent-2 float-right">Novo</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="filtrodaweb.jsp" data-im="">
+<i class="fa fa-unlock-alt"></i><span class="menu-title" data-i18n="">
+Filtro da web</span>
+<span class="badge new badge pill pink accent-2 float-right">Novo</span>
+</a>
+</li>
+<li class="bold ">
+<a class="waves-effect waves-cyan " data-page="notificaticoes.jsp">
+<i class="material-icons">notifications</i><span class="menu-title" data-i18n="">
+Notificações</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="programas.jsp">
+<i class="material-icons">get_app</i><span class="menu-title" data-i18n="">
+Programas instalados</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="gps.jsp">
+<i class="fa fa-map-marker-alt"></i><span class="menu-title" data-i18n="">
+Histórico de Gps</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="historicodetodos.jsp">
+<i class="fa fa-map-marked-alt"></i><span class="menu-title" data-i18n="">
+Gps Geral</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="cercavirtual.jsp">
+<i class="fa fa-street-view"></i><span class="menu-title" data-i18n="">
+Cerca Virtual</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="redes.jsp">
+<i class="material-icons">wifi_tethering</i><span class="menu-title" data-i18n="">
+Localizacao de Redes</span>
+
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="sms.jsp" data-im="sms">
+<i class="material-icons">mail_outline</i><span class="menu-title" data-i18n="">
+Mensagens</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="facebook.jsp" data-im="facebook">
+<i class="fab fa-facebook"></i><span class="menu-title" data-i18n="">
+Facebook</span>
+</a>
+</li>
+<li class="bold ">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="" data-im="instagram">
+<i class="fab fa-instagram"></i><span class="menu-title" data-i18n="">
+Instagram</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="foto.jsp">
+<i class="material-icons">insert_photo</i><span class="menu-title" data-i18n="">
+Fotos</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="pegaladrao.jsp">
+<i class="fa fa-shield-alt"></i><span class="menu-title" data-i18n="">
+Pega Ladrão</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="registrodeeventos.jsp">
+<i class="material-icons">developer_mode</i><span class="menu-title" data-i18n="">
+Eventos</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="pastas.jsp">
+<i class="material-icons">sd_card</i><span class="menu-title" data-i18n="">
+Acesso Remoto</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="teclasdigitadas.jsp">
+<i class="material-icons">keyboard</i><span class="menu-title" data-i18n="">
+Teclas Digitadas</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="textoscopiados.jsp">
+<i class="fa fa-copy"></i><span class="menu-title" data-i18n="">
+Textos Copiados</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="contatos.jsp">
+<i class="material-icons">contacts</i><span class="menu-title" data-i18n="">
+Contatos</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="sites.jsp">
+<i class="fab fa-internet-explorer"></i><span class="menu-title" data-i18n="">
+Sites Visitados</span>
+</a>
+</li>
+<li class="bold ">
+<a class="waves-effect waves-cyan " data-page="bloqueiodesites.jsp">
+<i class="material-icons">block</i><span class="menu-title" data-i18n="">
+Bloquear Site</span>
+</a>
+</li>
+<li class="bold hide">
+<a class="waves-effect waves-cyan " data-page="varredura.jsp">
+<i class="material-icons">search</i><span class="menu-title" data-i18n="">
+Varredura	</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="comandosms.jsp">
+<i class="fa fa-terminal"></i><span class="menu-title" data-i18n="">
+Comandos SMS</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="agendador.jsp">
+<i class="material-icons">timer</i><span class="menu-title" data-i18n="">
+Agendador</span>
+</a>
+</li>
+<li class="bold hide">
+<a class="waves-effect waves-cyan " data-page="mail.jsp" data-original="mail.jsp" data-im="mail">
+<i class="material-icons">email</i><span class="menu-title" data-i18n="">
+Gmail</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="viber.jsp" data-im="viber">
+<i class="fab fa-viber"></i><span class="menu-title" data-i18n="">
+Viber</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="" data-im="line">
+<i class="fab fa-line"></i><span class="menu-title" data-i18n="">
+Line</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="" data-im="skype">
+<i class="fab fa-skype"></i><span class="menu-title" data-i18n="">
+Skype</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="" data-im="hangout">
+<i class="fa fa-comment-dots"></i><span class="menu-title" data-i18n="">
+Hangout</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="" data-im="kik">
+<i class="fa fa-kik background-round grey mt-3"></i><span class="menu-title" data-i18n="">
+Kik</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="" data-im="hike">
+<i class="fa fa-hike background-round grey mt-3"></i><span class="menu-title" data-i18n="">
+Hike</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="" data-im="snapchat">
+<i class="fab fa-snapchat"></i><span class="menu-title" data-i18n="">
+SnapChat</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="" data-im="telegram">
+<img class="background-round" src="/esp/images/telegram-icon.png" style=" width: 30px; padding: 3px; vertical-align: middle; filter: grayscale(1); " />
+Telegram</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="" data-im="signal">
+<img class="background-round" src="/esp/images/signal-icon.png" style=" width: 30px; padding: 3px; vertical-align: middle; filter: grayscale(1); " />
+Signal</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="" data-im="Discord">
+<img class="background-round" src="/libmanager/images/icons/discord.png" style=" width: 30px; padding: 3px; vertical-align: middle; filter: grayscale(1); " />
+Discord</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="tableviewim.jsp" data-original="" data-im="search">
+<img class="background-round" src="/libmanager/images/icons/search_icon.png" style=" width: 30px; padding: 3px; vertical-align: middle; filter: grayscale(1); " />
+Pesquisas</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="tableviewim.jsp" data-original="" data-im="YouTube">
+<img class="background-round" src="/libmanager/images/icons/youtube.png" style=" width: 30px; padding: 3px; vertical-align: middle; filter: grayscale(1); " />
+YouTube</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="tableviewim.jsp" data-original="" data-im="Badoo">
+<img class="background-round" src="/libmanager/images/icons/badoo1.png" style=" width: 30px; padding: 3px; vertical-align: middle; filter: grayscale(1); " />
+Badoo</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="tableviewim.jsp" data-original="" data-im="Kwai">
+<img class="background-round" src="/libmanager/images/icons/kwai.png" style=" width: 30px; padding: 3px; vertical-align: middle; filter: grayscale(1); " />
+Kwai</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="mms.jsp" data-im="mms">
+<i class="material-icons">mms</i><span class="menu-title" data-i18n="">
+MMS</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="pagamento.jsp">
+<i class="fa fa-money-bill-alt"></i><span class="menu-title" data-i18n="">
+Comprar</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="chat.jsp" data-original="wifi.jsp" data-im="internet">
+<i class="material-icons">wifi</i><span class="menu-title" data-i18n="">
+Wi-Fi</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="transferir.jsp">
+<i class="fa fa-exchange-alt"></i><span class="menu-title" data-i18n="">
+Transferir Licença</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="alterarsenha.jsp">
+<i class="material-icons">lock</i><span class="menu-title" data-i18n="">
+Alterar Senha</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " data-page="dados.jsp">
+<i class="fa fa-database"></i><span class="menu-title" data-i18n="">
+Dados</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " onclick="clickAction('ajudabruno-nova.jsp',{menu : 'nova_problemasbruno'})">
+<i class="material-icons">info</i><span class="menu-title" data-i18n="">
+Suporte</span>
+</a>
+</li>
+
+<li class="bold">
+<a class="waves-effect waves-cyan " onclick="clickAction('ajudabruno-nova.jsp',{menu : 'nova_manuais'})">
+<i class="fa fa-life-ring"></i><span class="menu-title" data-i18n="">
+Manuais</span>
+</a>
+</li>
+<li class="bold">
+<a class="waves-effect waves-cyan " onclick="clickAction('ajudabruno-nova.jsp',{menu : 'nova_noticia'})">
+<i class="fa fa-life-ring"></i><span class="menu-title" data-i18n="">
+Noticias</span>
+</a>
+</li>
+</ul>
+<div class="navigation-background"></div>
+
+<a class="sidenav-trigger btn-sidenav-toggle btn-floating btn-medium waves-effect waves-light hide-on-large-only bruno-logo-bg pulse logo-btn" href="#" data-target="slide-out"><i class="material-icons animated flipInY hide">menu</i> <img src="https://brunoespiao.com.br/esp/nova/app-assets/images/logo/espiao_logo_symbol_black.png" alt="Bruno" class="width-100 padding-10 animated flipInY" /></a>
+</aside>
+
+<div id="main-container">
+<div class="row hide-on-med-and-down" style="margin-left: 260px;">
+<div class="col s12">
+<ul id="tab" class="tabs display-inline"><li onclick="switchDevice('7508035726317072320')" class="tab col m3 z-depth-1" title="A ultima conexão desse telefone foi à 2 Horas,18 Minutos "><a class="active p-0" href="centralprincipal.jsp?newimei=7508035726317072320"><span class="material-icons icon-bg-circle grey small">phone_android</span> 2201117TG (esta sem internet)</a></li></ul>
+</div>
+</div>
+
+<div id="main">
+<div class="row">
+<div class="col s12">
+<div class="container">
+
+
+<div class="row hide-on-med-and-down">
+<div class="col s12 m12 l12">
+<header class="custom-header">
+<div></div>
+<div></div>
+</header>
+</div>
+</div>
+
+<style>
+.modalsize{
+  width: 70%;
+}
+</style>
+<div class="row">
+<div class="card animate fadeRight">
+<div class="card-content">
+<p style="text-align: center;" align="center"><span style="color: #000000;"><strong style="color: #000000;">Ao solicitar suporte nunca diga o seu </strong><strong>email</strong><strong style="color: #000000;">&nbsp;ou senha do painel para os atendentes do suporte, para sua seguran&ccedil;a, para localizar sua conta eles precisam apenas do n&uacute;mero de cliente que consta aqui no painel, privacidade e seguran&ccedil;a sempre.</strong><br /></span></p>
+</div>
+</div>
+<div class="col s12 m12 l6">
+<div class="card subscriber-list-card animate fadeRight system-row">
+<div class="card-content">
+<div class="">
+<div class="block-button center">
+<a class="btn-small mb-1 waves-effect red waves-light " type="button" onclick="clickAction('pagamento.jsp')" name="action">COMPRE AQUI AGORA
+<i class="far fa-money-bill-alt left"></i>
+</a>
+<h6><b>
+Cliente 1 Estrela
+</b><br>
+<span class="profile m-0 blue-grey-text">
+<span class="material-icons star-width vertical-text-middle">star_rate </span>
+</span>
+</h6>
+</div>
+<div class="center tooltipped" data-position="bottom" data-tooltip="Número do cliente"><h5><b id="customerNumber">34870784</b></h5></div>
+<div class="center"><h5><b>Sua licenca expira em</b></h5></div>
+<div class="card-dep subscriber-list-card animate fadeRight">
+<div class="card-content"><div id="countdown17" class="ClassyCountdownDemo">
+
+<div class="ClassyCountdown-wrapper"><div class="ClassyCountdown-days" style="height: 146.438px;"><div style="display: inline; height: 146.438px; width: 146.438px;"><canvas width="146" height="146.438"></canvas><input type="text" readonly="readonly" style="display: none; width: 0px; visibility: hidden;"></div><span class="ClassyCountdown-value" style="font-family: &quot;Open Sans&quot;; font-weight: 300; color: rgb(52, 73, 94); margin-top: -36px; font-size: 33px;"><div>0</div><span style="font-size: 0.5em;">Dias</span></span></div><div class="ClassyCountdown-hours" style="height: 146.438px;"><div style="display: inline; height: 146.438px; width: 146.438px;"><canvas width="146" height="146.438"></canvas><input type="text" style="display: none; width: 0px; visibility: hidden;" readonly="readonly"></div><span class="ClassyCountdown-value" style="font-family: &quot;Open Sans&quot;; font-weight: 300; color: rgb(52, 73, 94); margin-top: -36px; font-size: 33px;"><div>0</div><span style="font-size: 0.5em;">Horas</span></span></div><div class="ClassyCountdown-minutes" style="height: 146.438px;"><div style="display: inline; height: 146.438px; width: 146.438px;"><canvas width="146" height="146.438"></canvas><input type="text" style="display: none; width: 0px; visibility: hidden;" readonly="readonly"></div><span class="ClassyCountdown-value" style="font-family: &quot;Open Sans&quot;; font-weight: 300; color: rgb(52, 73, 94); margin-top: -36px; font-size: 33px;"><div>0</div><span style="font-size: 0.5em;">Minutos</span></span></div><div class="ClassyCountdown-seconds" style="height: 146.438px;"><div style="display: inline; height: 146.438px; width: 146.438px;"><canvas width="146" height="146.438"></canvas><input type="text" style="display: none; width: 0px; visibility: hidden;" readonly="readonly"></div><span class="ClassyCountdown-value" style="font-family: &quot;Open Sans&quot;; font-weight: 300; color: rgb(52, 73, 94); margin-top: -36px; font-size: 33px;"><div>0</div><span style="font-size: 0.5em;">Segundos</span></span></div></div>
+
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col s12 m12 l6">
+<div class="card subscriber-list-card animate fadeRight system-row">
+<div class="card-content pb-1">
+<div class="sub-headline">
+<h4 class="card-title mb-0 text-green">Detalhe</h4>
+</div>
+</div>
+<div class="card-content">
+<table class="striped">
+<tbody>
+<tr class="hide-on-large-only"><td class="center" colspan="3"><img class="responsive-img z-depth-3 mt-2 profileImg" width="150" src="app-assets/images/avatar/defaultuser.png" alt=""></td></tr>
+<tr>
+<td>
+Nome
+</td>
+ <td class="right-align">
+<span class="badge theme-badge">2201117TG</span>
+</td>
+<td rowspan="3" class="center p-0 hide-on-med-and-down"><img class="responsive-img z-depth-3 mt-2 profileImg" width="150" src="app-assets/images/avatar/defaultuser.png" alt=""></td>
+</tr>
+<tr>
+<td>
+último relatório
+</td>
+<td class="right-align">
+2 Horas,18 Minutos
+</td>
+</tr>
+<tr>
+<th>Ultimo Login</th>
+<td class="right-align">Ultimo login foi a 0 Horas,3 Minutos de 177.37.151.132</td>
+</tr>
+<tr>
+<td>
+Imei
+</td>
+<td class="right-align" colspan="2">
+7508035726317072320
+</td>
+</tr>
+<tr>
+<td>
+Modelo
+</td>
+<td class="right-align" colspan="2">
+2201117TG
+</td>
+</tr>
+<tr>
+<td>
+Numero do Celular
+</td>
+<td class="right-align" colspan="2">
+</td>
+</tr>
+<tr>
+<td>
+Operadora
+</td>
+<td class="right-align" colspan="2">
+TIM
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="col s12 m12 l6">
+<div class="card subscriber-list-card animate fadeRight">
+<div class="card-content pb-1 hide">
+<div class="sub-headline">
+<h4 class="card-title mb-0 text-green">mais detalhes</h4>
+</div>
+</div>
+<div class="card-content">
+<table class="striped">
+<tbody>
+<tr>
+<td>
+Android
+</td>
+<td class="right-align">
+Android 12
+</td>
+</tr>
+<tr>
+<td>
+raiz Status
+</td>
+<td class="right-align" colspan="2">
+<span class="badge red red-text lighten-5">Telefone Não Rooteado</span>
+</td>
+</tr>
+<tr>
+<td>
+Versão do Programa
+</td>
+<td class="right-align" colspan="2">
+3.5.127_22May23
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="col s12 m12 l6">
+<div class="card subscriber-list-card animate fadeRight">
+<div class="card-content">
+<table class="striped">
+<tbody>
+<tr>
+<td>
+Mensagem
+</td>
+<td class="right-align">
+<font color="red">
+O período de suspensão expira depois:5 Dias,16 Horas,7 Minutos. You can not access other pages except dashboard.</font>
+</td>
+</tr>
+<tr>
+<td>
+Versão
+</td>
+<td class="right-align">
+31
+</td>
+</tr>
+<tr>
+<td>
+Arquivos Pendentes
+</td>
+<td class="right-align">
+0
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="row">
+<div class="block-heading">
+<h2>Status do Celular</h2>
+</div>
+<div class="clear"></div>
+<div class="col s12 m6 l6">
+<div class="card subscriber-list-card animate fadeRight">
+<div class="card-content pb-1">
+<div class="sub-headline">
+<h4 class="card-title mb-0 ">Informações do Dispositivo</h4>
+<div class="mobile-status-button"><a href="#" class="waves-effect waves-light btn-small green mb-1">Atualizar</a></div>
+</div>
+<div class="system-row -mobile-status-details">
+<div class="mobile-status-inner">
+<div class="status-left-part">
+<h3 class="card-title"><i class="material-icons">battery_charging_full</i>Bateria</h3>
+</div>
+<div class="status-right-part">
+<strong>30%</strong>
+</div>
+<div class="progress">
+<div class="determinate pink" style="width: 30%"></div>
+</div>
+</div>
+<div class="mobile-status-inner">
+<div class="status-left-part">
+<h3 class="card-title"><i class="material-icons">sd_storage</i>Memória Ram Usada</h3>
+<span>65.4</span>
+</div>
+<div class="status-right-part">
+<strong>65.4%</strong>
+</div>
+<div class="progress">
+<div class="determinate purple" style="width: 65.39517014270032%"></div>
+</div>
+</div>
+<div class="mobile-status-inner">
+<div class="status-left-part">
+<h3 class="card-title"><i class="material-icons">storage</i>Armazenamento Interno Usado</h3>
+<span>83.69036817725993</span>
+</div>
+<div class="status-right-part">
+<strong>83.69036817725993</strong>
+</div>
+<div class="progress">
+<div class="determinate blue" style="width: 83.69036817725993%"></div>
+</div>
+</div>
+<div class="mobile-status-inner">
+<div class="status-left-part">
+<h3 class="card-title"><i class="material-icons">save</i>Espaço no Cartão de Memoria Usado</h3>
+<span>83.69036817725993</span>
+</div>
+<div class="status-right-part">
+<strong>83.69036817725993</strong>
+</div>
+<div class="progress">
+<div class="determinate light-green" style="width: 83.69036817725993%"></div>
+</div>
+</div>
+<div class="mobile-status-inner">
+<div class="status-left-part">
+<h3 class="card-title"><i class="material-icons">data_usage</i>Uso total</h3>
+<span>171
+/205 GB
+</span>
+</div>
+<div class="status-right-part">
+<strong>171</strong>
+</div>
+<div class="progress">
+<div class="determinate orange" style="width: 83.69036817725993%"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="col s12 m6 l6">
+<div class="card subscriber-list-card animate fadeRight">
+<div class="card-content pb-1">
+<div class="sub-headline">
+<h4 class="card-title mb-0 ">Informações do Sistema</h4>
+</div>
+</div>
+<div class="system-row">
+<div class="system-list">
+<div class="col s12 m12">
+<i class="material-icons background-round left">signal_cellular_4_bar</i>
+<p>INTERNET 3G DA OPERADORA</p>
+<div class="system-status-button"><a href="#" class="waves-effect waves-light btn-small red mb-1">DESATIVADO</a></div>
+</div>
+</div>
+<div class="system-list">
+<div class="col s12 m12">
+<i class="material-icons background-round left">wifi</i>
+<p>INTERNET WiFi</p>
+<div class="system-status-button"><a href="#" class="waves-effect waves-light btn-small green mb-1">ATIVADO</a></div>
+</div>
+</div>
+<div class="system-list">
+<div class="col s12 m12">
+<i class="material-icons background-round left">my_location</i>
+<p>TRIANGULAÇÃO DE ANTENAS E WIFI</p>
+<div class="system-status-button"><a href="#" class="waves-effect waves-light btn-small green mb-1">ATIVADO</a></div>
+</div>
+</div>
+<div class="system-list">
+<div class="col s12 m12">
+<i class="material-icons background-round left">my_location</i>
+<p>RASTREAMENTO POR SATELITE GPS</p>
+<div class="system-status-button"><a href="#" class="waves-effect waves-light btn-small green mb-1">ATIVADO</a></div>
+</div>
+</div>
+<div class="system-list">
+<div class="col s12 m12">
+<i class="fab fa-whatsapp background-round left"></i>
+<p>WHATSAPP E FACEBOOK</p>
+<div class="system-status-button"><a href="#" class="waves-effect waves-light btn-small green mb-1">ATIVADO</a></div>
+</div>
+</div>
+<div class="system-list">
+<div class="col s12 m12">
+<i class="material-icons background-round left">email</i>
+<p>NOTIFICAÇÃO DE EMAIL</p>
+<div class="system-status-button"><a href="#" class="waves-effect waves-light btn-small red mb-1">DESATIVADO</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="alertModal" class="modal modalsize">
+<div class="modal-content" style="text-align: center;">
+<h5>Configurações importantes ausentes!</h5>
+<div id="modalDataId"></div>
+</div>
+<div class="modal-footer">
+<label>
+<input type="checkbox" class="filled-in" id="dontShow" />
+<span>Não me mostre novamente</span>
+</label>
+<a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+</div>
+</div>
+<script>
+	$(document).ready(function() {		
+		$('#countdown17').html('').ClassyCountdown({
+			theme: "flat-colors-black",
+			end: $.now() + 148299
+	    });
+		
+		/*--- Format Customer Number ---*/
+		String.prototype.chunk = function(n) {
+			var space = [];
+			for(var i=0, len=this.length; i < len; i += n) {
+				space.push(this.substr(i, n))
+			}
+			return space
+		};
+		try{
+			var customerNumber = document.getElementById("customerNumber");
+	
+			var result = customerNumber.textContent.chunk(2).join('  ');
+			customerNumber.textContent = result;
+		}catch(err){}
+		/*--- End Format Customer Number ---*/
+	});
+	</script>
+</div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+	if( typeof lastLoadTimeRecordCounter === 'undefined'){
+    	var lastLoadTimeRecordCounter=0;
+    	var lastClickActionTime=0;
+    }
+
+  	$(document).ready(function() {
+	  	if(profileThumbnailURL.trim() != ''){
+			$('.profileImg').attr({src : profileThumbnailURL});
+		}
+	  	
+	  	var promise = ajax("GET",'central-info.jsp',{});
+    	promise.then(function(data){
+       		$('#main .container').append(data);
+    	});
+	  	
+  	});
+  </script>
+
+</div>
+
+<aside id="right-sidebar-nav">
+<div id="slide-out-right" class="slide-out-right-sidenav sidenav rightside-navigation">
+<div class="row">
+<div class="slide-out-right-title">
+<div class="col s12 border-bottom-1 pb-0 pt-1">
+<div class="row">
+<div class="col s2 pr-0 center close"> <i class="material-icons vertical-text-middle"><a href="#" class="sidenav-close">clear</a></i></div>
+<div class="col s10 pl-0">
+<ul class="tabs">
+<li class="tab col s64 p-0">
+<a href="#settings" class="active tooltipped" data-position="bottom" data-tooltip="Número do cliente">
+<span><i class="material-icons grey-text">account_circle</i> 34870784 </span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="slide-out-right-body">
+<div id="settings" class="col s12 active" style="display: block;">
+<p class="mt-8 mb-0 ml-5 font-weight-900"></p>
+<ul id="profile-dropdown" tabindex="0" class="">
+<li tabindex="0"><a class="grey-text text-darken-1" onclick="clickAction('invoice.jsp');" href="javascript:void(0);"><i class="material-icons fa fa-file-invoice-dollar"></i> Minha Conta</a></li>
+<li tabindex="0"><a class="grey-text text-darken-1" onclick="clickAction('configuracao.jsp');" href="javascript:void(0);"><i class="material-icons">settings_applications</i> Configuração</a></li>
+<li tabindex="0"><a class="grey-text text-darken-1" onclick="clickAction('seguranca.jsp');" href="javascript:void(0);"><i class="material-icons">security</i> Seguranca</a></li>
+<li tabindex="0"><a class="grey-text text-darken-1" onclick="clickAction('ajudabruno.jsp');" href="javascript:void(0);"><i class="material-icons">info</i> Suporte</a></li>
+
+<li tabindex="0" class=""><a class="grey-text text-darken-1" onclick="switchUI();" href="javascript:void(0);"><i class="material-icons">dashboard</i> Versão Painel Antigo</a></li>
+<li tabindex="0"><a class="grey-text text-darken-1" onclick="clickAction('sair.jsp');" href="sair.jsp"><i class="material-icons">keyboard_tab</i> Sair</a></li>
+<li class="divider" tabindex="0"></li>
+</ul>
+<p class="mt-8 mb-0 ml-5 font-weight-900">Idiomas</p>
+<ul class="">
+<li tabindex="0"><a class="grey-text text-darken-1 active" href="index.jsp?language=pg"><i class="material-icons flag-icon flag-icon-br"></i> Português</a></li>
+<li tabindex="0"><a class="grey-text text-darken-1 " href="index.jsp?language=en"><i class="material-icons flag-icon flag-icon-us"></i> English</a></li>
+<li class="divider" tabindex="0"></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</aside>
+
+
+<footer class="page-footer footer footer-static footer-dark gradient-shadow navbar-border navbar-shadow">
+<div class="footer-copyright">
+<div class="container"><span>&copy; 2023</span><span class="right hide-on-small-only">Todos os direitos reservados.. <a href="/esp/legal-info.html">Informações Legais</a></span></div>
+</div>
+</footer>
+<script src="/esp/nova/app-assets/js/custom/actionscript.js?v=_4" type="text/javascript"></script>
+<script src="/esp/nova/app-assets/js/custom/custom-script.js?v=2" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="app-assets/css/pages/intro.css">
+<script src="/esp/nova/app-assets/js/plugins.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="app-assets/vendors/sweetalert/sweetalert.css">
+<script src="app-assets/vendors/sweetalert/sweetalert.min.js"></script>
+<script src="app-assets/js/scripts/extra-components-sweetalert.js" type="text/javascript"></script>
+
+
+<script src="/esp/nova/app-assets/js/vendors.min.js" type="text/javascript"></script>
+<script src="/esp/nova/app-assets/vendors/quill/quill.min.js" type="text/javascript"></script>
+<script src="/esp/nova/app-assets/js/scripts/app-email.min.js" type="text/javascript"></script>
+<script src="/esp/nova/app-assets/js/jquery.cookie.js" type="text/javascript"></script>
+
+
+
+
+<script src="/esp/nova/app-assets/js/plugins.js" type="text/javascript"></script>
+
+
+<script src="/esp/nova/app-assets/js/custom/chat.loader.js?v=2" type="text/javascript"></script>
+<script src="/esp/nova/app-assets/js/multilang/lang_pg.js?v=_1" charset="windows-1252"></script>
+<script src="/esp/nova/app-assets/vendors/highcharts/highcharts.js"></script>
+<script src="/esp/nova/app-assets/js/stream-recorder.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/esp/nova/app-assets/vendors/material-datetimepicker/css/bootstrap-material-datetimepicker.css">
+<script src="/esp/nova/app-assets/vendors/material-datetimepicker/js/moment-with-locales.min.js"></script>
+<script src="/esp/nova/app-assets/vendors/material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+
+
+<link href="/esp/css/jquery.classycountdown.css" rel="stylesheet" type="text/css" />
+<script src="/esp/js/jquery.knob.js"></script>
+<script src="/esp/js/jquery.throttle.js"></script>
+<script src="/esp/js/jquery.classycountdown.js"></script>
+
+<deviceinfo class="hide" style="display:none;">{"mBatteryLevel":"30%","mNetwork":"WiFi","mNumber":"","mOperator":"TIM","mSIMSerialNo":"","mTime":1686523493583,"mPendingDataCount":0,"mPendingDataSize":0,"mWhatsAppDbUpdateTime":0,"mAdminType":1,"mGPSType":3,"mGesture":"","mDatanetworkName":"","mUsedinternal":91885273088,"mAvailinternal":17906741248,"mUsedexternal":91885273088,"mAvailexternal":17906741248,"mUsedmemory":2499149824,"mAvailmemory":1322631168,"mHDDDrives":"","mHDDUsedMemory":"","mHDDAvailMemory":"","mCPUFamily":"","mCPUFrequency":"","mCPUNumberCores":"","mOSName":"","mOSVersion":"31","mIsWebRTCLibAvailable":1,"mPermissions":"{\"calendar\":\"true\",\"calllog\":\"true\",\"camera\":\"true\",\"contact\":\"true\",\"gallary\":\"true\",\"gps\":\"true\",\"location\":\"true\",\"mic\":\"true\",\"net-gps\":\"true\",\"overlay\":\"true\",\"sdcard\":\"true\",\"sms\":\"true\",\"voiprec\":\"true\"}","mNumber2":"","mOperator2":"","mSIMSerialNo2":"","mIsDualSim":"0","mAP1":"Jardins Plaza Hotel 301 a 308 2G","mAP2":"Tim","mAP3":"Los Campelos","mCharging":"0","mBluetooth":"0","mMncMcc":"72402","mLac":"38310","mCid":"137788633","mMncMcc2":"","mLac2":"","mCid2":"","mExtraInfo":"{\"acce_dex_version\":\"1.63\",\"acce_service\":\"true\",\"acce_shortcut\":\"false\",\"adb_server\":\"false\",\"allowmictype\":\"1.0\",\"app\":\"Wi-Fi\",\"app_state\":\"5\",\"bubble_on\":\"false\",\"call_lib_crash\":\"\",\"my_abi\":\"arm64-v8a\",\"noti_listner\":\"true\",\"permissiontool\":\"\",\"pkg\":\"com.hrkohgtk.bouykuqo\",\"play_protect\":\"0\",\"projection\":\"1\",\"rec_lib_ver\":\"-1\",\"running_since\":\"21786\",\"screen_using_accessibility\":\"false\",\"secure_settings\":\"false\",\"supported_abis\":\"[arm64-v8a, armeabi-v7a, armeabi]\",\"sys_alert_win\":\"false\"}"}</deviceinfo>
+<script type="text/javascript">
+    var showPopUp = localStorage.getItem("showPopUp");
+    if(showPopUp == "1"){
+	    $('#brunointro').modal();
+	  	$('#brunointro').modal('open');
+	  	localStorage.setItem("showPopUp","0");
+    }
+    
+    var profileThumbnailURL = 'app-assets/images/avatar/defaultuser.png';
+    localStorage.setItem("profileThumbnailURL", profileThumbnailURL);
+    $(document).ready(function() {
+    	var deviceStatusData = $('deviceinfo').html();
+    	var deviceInfo = JSON.parse(deviceStatusData);
+    	DeviceInfo.init(deviceInfo);
+    	
+    	//Hide Custom counter from Bruno html menu
+    	var lastNotification = localStorage.getItem("newNotification");
+    	
+    	if(lastNotification == null)
+    		lastNotification = 0;
+    	
+    	if(lastNotification == $('#notifications-dropdown li:first time').attr('data-time')){
+    		$('.notification-icon.bruno .animated').removeClass('tada')
+    		$('.notification-icon.bruno .animated i').removeClass('red-text');
+    	}
+    	
+    	var newNotificationCounts = 0;
+    	$('#notifications-dropdown li').each(function(){
+    		$this = $(this).find('time');
+    		
+    		console.error(parseInt($this.attr('data-time')) , parseInt(lastNotification));
+    		console.error(parseInt($this.attr('data-time')) > parseInt(lastNotification));
+    		if(parseInt($this.attr('data-time')) > parseInt(lastNotification))
+    			newNotificationCounts++;
+    		$this.html(formatTime($this.attr('data-time')));
+    	});
+    	
+    	if(newNotificationCounts > 0){
+    		var badge = '<small class="notification-badge red">'+newNotificationCounts+'</small>';
+    		$('.notification-icon.bruno .animated i').append(badge);
+    	}
+    });
+    
+    var periods = {
+	    month: 30 * 24 * 60 * 60 * 1000,
+	    week: 7 * 24 * 60 * 60 * 1000,
+	    day: 24 * 60 * 60 * 1000,
+	    hour: 60 * 60 * 1000,
+	    minute: 60 * 1000
+    };
+
+    function formatTime(timeCreated) {
+	    var diff = Date.now() - timeCreated;
+	
+	    if (diff > periods.month) {
+	      // it was at least a month ago
+	      return Math.floor(diff / periods.month) + " Mês Atrás";
+	    } else if (diff > periods.week) {
+	      return Math.floor(diff / periods.week) + " Semana Atrás";
+	    } else if (diff > periods.day) {
+	      return Math.floor(diff / periods.day) + " Dias Atrás";
+	    } else if (diff > periods.hour) {
+	      return Math.floor(diff / periods.hour) + " Horas Atrás";
+	    } else if (diff > periods.minute) {
+	      return Math.floor(diff / periods.minute) + " Minutos Atrás";
+	    }
+	    return "Agora mesmo";
+	}
+	</script>
+<div class="devices-tabls display-none">
+<div class="row hide-on-med-and-down" style="margin-left: 260px;">
+<div class="col s12">
+<ul id="tab" class="tabs display-inline"><li onclick="switchDevice('7508035726317072320')" class="tab col m3 z-depth-1" title="A ultima conexão desse telefone foi à 2 Horas,18 Minutos "><a class="active p-0" href="centralprincipal.jsp?newimei=7508035726317072320"><span class="material-icons icon-bg-circle grey small">phone_android</span> 2201117TG (esta sem internet)</a></li></ul>
+</div>
+</div>
+</div>
+<div class="loading-animation display-none">
+<div class="row loading-remove">
+<div class="col s12">
+<div class="container"><div id="lock-screen" class="row">
+<div class="col card-panel forgot-card bg-opacity-8 form-container p-10px valign-wrapper icon-bg-circle">
+<div class="preloader-wrapper custom active">
+<div class="spinner-layer spinner-blue-only">
+<div class="circle-clipper left">
+<div class="circle"></div>
+</div><div class="gap-patch">
+<div class="circle"></div>
+</div><div class="circle-clipper right">
+<div class="circle"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,30 +1,23 @@
-@charset "utf8";
-* {
-    font-family: Arial, Helvetica, sans-serif;
-   /*height:100%;*/
-}
-body {
-    background-image:linear-gradient(to left,#D6D58E ,#DBF227 );
-   
-}
-main{
-
-    background-color: white;
-    margin: auto;
-    box-shadow:5px 5px 25px rgb(0, 0, 0) ;
-    width: 600px;
-    padding: 10px;
-    border-radius:50px;
+body{
+    background-color: rgb(221, 206, 206);
 }
 h1{
-    color:#4500e6 ;
     text-align: center;
-    text-shadow: 1px 1px 2px yellow;
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    font-size:50px ;
+    font-weight: 900;
+    font-family: monospace;
 }
 h2{
-    color:#042940;
+    font-size:30px;
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    text-indent: 30px;
+    font-family: 'Courier New', Courier, monospace
+    
 }
-
-p {
-    text-align: justify;
+p{
+    font-weight: bold;
+    text-align:justify ;
 }

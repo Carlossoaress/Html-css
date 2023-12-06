@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Midias em html5</title>
-    </head>
-    <body>
-        <h1>Imagen dinamica</h1>
-        <p>tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminia o tamanho do seu navegador</p>
-        <picture>
-            <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
-            <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
-            <img src="imagens/foto-g.png" alt="imagen flexivel">
-        </picture>
-        <h1>
-            reproduzindo audio
-        </h1>
-        <p>vamos aprender a reproduzir audio em html5</p>
-        <audio src="media/tribodaperiferia.mp3" controls autoplay></audio>
-        <h1>
-            
-        </h1>
-        
-    </body>
-    </html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videos com html 5</title>
+</head>
+<body>
+    <h1>
+      inserindo videos hospedado localmente  
+    </h1>
+    <p>
+       este video esta hospedado no meu propio servidor.
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CnKAcUaovcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>video local</h1>
+    <video poster="imagnes/naruto.jpg" src="media/meuvideo.mp4" width="220" controls loop autoplay></video>
+    <h1>link para dowload</h1>
+    <ul>
+      <li>
+        <a href="https://youtu.be/CnKAcUaovcI " target="_blank"> link para o site</a>
+      </li>
+    </ul>
+</body>
+</html>

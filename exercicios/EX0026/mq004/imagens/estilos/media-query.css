@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* Todas as Mídeas*/
+
+ @media print{  
+    /* impressão */
+
+}
+
+  @media screen and (min-width:768px) and (max-width:992px) {  
+    /* tablet */
+    body{
+        background-image: url(../back-tablet.jpg);
+    }
+    img#phone{display:none;}
+    img#tablet{display:block;}
+    img#print{display: none;}
+    img#pc{display: none;}
+    img#tv{display:none;}
+    
+}
+
+@media screen and (min-width:1050px) and (max-width:1200px) {
+    /* dsktop */
+body{
+    background-image: url(../back-pc.jpg);
+}
+img#phone{display:none;}
+img#tablet{display: none;}
+img#print{display: none;}
+img#pc{display: block;}
+img#tv{display:none;}
+        
+ }
+
+ @media screen and (min-width:1200px) {
+    /* Grande Telas */
+    body{
+        background-image: url(../back-tv.jpg);
+
+    }
+    img#phone{display:none;}
+img#tablet{display: none;}
+img#print{display: none;}
+img#pc{display: none;}
+img#tv{display:block;}
+    
+ }
+
